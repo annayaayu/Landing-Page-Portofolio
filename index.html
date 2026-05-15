@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Annaya | Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;700;800;900&display=swap"
+    rel="stylesheet" />
+  <!-- AOS Animation -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <button id="menuToggle" class="menu-toggle">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <!-- NAVBAR -->
+  <nav id="sidebar-nav">
+    <div class="sidebar-line"></div>
+
+    <!-- NAVBAR-ITEM-->
+    <a href="#hero" class="nav-icon active" data-tooltip="Home">
+      <i class="bi bi-house-door"></i>
+    </a>
+    <a href="#services" class="nav-icon" data-tooltip="Services">
+      <i class="bi bi-briefcase"></i>
+    </a>
+    <a href="#about" class="nav-icon" data-tooltip="About">
+      <i class="bi bi-person"></i>
+    </a>
+    <a href="#skills" class="nav-icon" data-tooltip="Skills">
+      <i class="bi bi-stars"></i>
+    </a>
+    <a href="#projects" class="nav-icon" data-tooltip="Projects">
+      <i class="bi bi-grid"></i>
+    </a>
+    <a href="#contact" class="nav-icon" data-tooltip="Contact">
+      <i class="bi bi-chat-dots"></i>
+    </a>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero-section">
+
+    <div class="container hero-container">
+      <div class="hero-text" data-aos="fade-right" data-aos-duration="900">
+        <h1 class="hero-greeting" style="font-family: Georgia, 'Times New Roman', Times, serif;">HELLO,</h1>
+        <h1 class="hero-name" style="font-family: Georgia, 'Times New Roman', Times, serif;">I'M ANNAYA</h1>
+        <p class="hero-desc">
+          I Am A Web Developer Who Is Still Learning A Lot About
+          Websites, UI/UX Design, And Many Other Things.
+        </p>
+        <a href="#about" class="btn btn-hero">READ MORE</a>
+      </div>
+
+      <div class="hero-photo-wrapper" data-aos="fade-left" data-aos-duration="900">
+        <div class="photo-orbit">
+          <div class="orbit-ring ring-outer"></div>
+          <div class="orbit-ring ring-inner"></div>
+          <div class="photo-circle">
+            <img src="asset/nayaa.jpeg" alt="Annaya" />
+          </div>
+
+          <span class="orbit-icon oi-1"><i class="bi bi-code-slash"></i></span>
+          <span class="orbit-icon oi-2"><i class="bi bi-layout-text-window"></i></span>
+          <span class="orbit-icon oi-3"><i class="bi bi-palette"></i></span>
+          <span class="orbit-icon oi-4"><i class="bi bi-globe2"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-info-bar" data-aos="fade-up" data-aos-delay="300">
+      <div class="info-item">
+        <i class="bi bi-calendar-date"></i>
+        <span>5 Mach 2010</span>
+      </div>
+      <div class="info-item">
+        <i class="bi bi-flag"></i>
+        <span>indonesia</span>
+      </div>
+      <div class="info-item">
+        <i class="bi bi-envelope"></i>
+        <span>larassatii2123@gmail.com</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="section-pad">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">MY SERVICES</h2>
+      <div class="row g-4 justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="col-md-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-code-slash"></i>
+            </div>
+            <h5 class="service-title">FRONT-END<br />DEVELOPMENT</h5>
+            <p class="service-desc">
+              Build responsive and functional websites using technologies like Tailwind and Bootstrap.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-palette2"></i>
+            </div>
+            <h5 class="service-title">UI/UX<br />DESIGN</h5>
+            <p class="service-desc">
+              Design intuitive and aesthetic user interfaces for the best experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="bi bi-phone"></i>
+            </div>
+            <h5 class="service-title">RESPONSIVE<br />DESIGN</h5>
+            <p class="service-desc">
+              Ensuring the website looks perfect on all devices, from desktop to smartphone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section-pad about-section">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">ABOUT ME</h2>
+      <div class="about-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4 text-center">
+            <div class="about-photo">
+              <img src="asset/nayaa.jpeg" alt="Annaya About" />
+              <div class="about-photo-deco"></div>
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <h3 class="about-heading">MY EXPERIENCE<br /><span>CREATING A WEB</span></h3>
+            <p class="about-text">
+              Hello! My name is Annaya Ayu Larasati, born in Semarang Regency on March 5, 2010. I am a student at
+              Tengaran Vocational High School, majoring in Software Engineering, and an aspiring web developer with
+              interests in front-end development and UI/UX design. I am constantly learning new things to improve my
+              skills in creating beautiful and functional websites.
+            </p>
+            <p class="about-text">
+              With experience using various modern technologies, I am ready to help you bring your digital ideas to
+              life.
+            </p>
+            <a href="Small Steps in the Digital World.pdf" class="btn btn-read-more">READ MORE <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section-pad">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">MY SKILL</h2>
+      <div class="row g-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo html-logo">
+              <img src="asset/html.png" alt="HTML5" />
+            </div>
+            <p class="skill-name text-start">HTML</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="85" style="background: linear-gradient(90deg,#e34c26, #7d3b1f);">
+                <span class="skill-percent">85%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo css-logo">
+              <img src="asset/css.png" alt="CSS3" />
+            </div>
+            <p class="skill-name text-start">CSS</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75" style="background:linear-gradient(90deg, #264de4, #10106b)">
+                <span class="skill-percent">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo js-logo">
+              <img src="asset/js.png" alt="JavaScript" />
+            </div>
+            <p class="skill-name text-start">JAVASCRIPT</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="35" style="background:linear-gradient(90deg, #f7df1e, #8d7e0d)">
+                <span class="skill-percent">35%</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo figma-logo">
+              <img src="asset/figma.png" alt="Figma" />
+            </div>
+            <p class="skill-name text-start">FIGMA</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75" style="background:linear-gradient(90deg,#58b572,#a259ff)">
+                <span class="skill-percent">75%</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo bootstrap-logo">
+              <img src="asset/bootstrap.png" alt="Bootstrap" />
+            </div>
+            <p class="skill-name text-start">BOOTSTRAP</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75" style="background:linear-gradient(90deg, #7952b3, #402963)">
+                <span class="skill-percent">75%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6">
+          <div class="skill-card">
+            <div class="skill-logo canva-logo">
+              <img src="asset/canva.png" alt="Canva" />
+            </div>
+            <p class="skill-name text-start">CANVA</p>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90" style="background:linear-gradient(90deg, #00c4cc,#856296)">
+                <small class="skill-percent">90%</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <h2 class="section-title project" data-aos="fade-up">PROJECT</h2>
+  <section id="projects" class="section-pad projects-section">
+    <div class="container">
+      <div class="project-slider-wrap" data-aos="fade-up" -delay="100">
+        <button class="slider-btn prev-btn" id="prevBtn">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <div class="project-slider" id="projectSlider">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="asset/kolaborasi1.png" alt="Project 1" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <h6 class="project-name">Kolaborasi 1</h6>
+            <a href=" https://annayaayu.github.io/kolaborasi-1/" class="btn btn-view-project">VIEW PROJECT</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="asset/sekolah.png" alt="Project 2" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <h6 class="project-name">Sistem Manajemen Siswa</h6>
+            <a href="https://annayaayu.github.io/Landing-Page-Sekolah/" class="btn btn-view-project">VIEW PROJECT</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="asset/environt.png" alt="Project 3" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <h6 class="project-name">Environs</h6>
+            <a href="https://annayaayu.github.io/Landing-page-environment/" class="btn btn-view-project">VIEW
+              PROJECT</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="asset/destinasi.png" alt="Project 4" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <h6 class="project-name">Landing page Destination</h6>
+            <a href="https://annayaayu.github.io/landing-page-destination/" class="btn btn-view-project">VIEW
+              PROJECT</a>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <img src="asset/fashion.png" alt="Project 4" />
+              <div class="project-overlay">
+              </div>
+            </div>
+            <h6 class="project-name">Landing page Fashion</h6>
+            <a href=" https://annayaayu.github.io/Landing-Page-Fashion/" class="btn btn-view-project">VIEW PROJECT</a>
+          </div>
+        </div>
+        <button class="slider-btn next-btn" id="nextBtn">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+      </div>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">CONTACT ME</h2>
+      <div class="contact-wrapper" data-aos="zoom-in" data-aos-delay="100">
+        <div class="row g-0">
+          <div class="col-md-6">
+            <div class="contact-form-area">
+              <div class="form-group-custom">
+                <label>NAME</label>
+                <input id="nameInput" type="text" class="form-control-custom" placeholder="name..." />
+              </div>
+              <div class="form-group-custom">
+                <label>EMAIL</label>
+                <input id="emailInput" type="email" class="form-control-custom" placeholder="example@gmail.com" />
+              </div>
+              <div class="form-group-custom">
+                <label>PASSWORD</label>
+                <input id="phoneInput" type="password" class="form-control-custom" placeholder="password..." />
+              </div>
+              <div class="form-group-custom">
+                <label>MESSAGE</label>
+                <textarea id="messageInput" class="form-control-custom" rows="4"
+                  placeholder="your message here..."></textarea>
+              </div>
+              <div class="captcha-row">
+                <input type="checkbox" id="notRobot" />
+                <label for="notRobot">I'M HUMAN</label>
+              </div>
+              <button class="btn btn-send" id="sendBtn">
+                SEND NOW <i class="bi bi-send-fill"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-info-area">
+              <p class="contact-info-desc">
+                For further information, you can contact me<br />through the contact provided below.
+              </p>
+              <div class="contact-info-grid">
+                <div class="contact-info-item">
+                  <div class="contact-info-icon">
+                    <i class="bi bi-whatsapp"></i>
+                  </div>
+                  <div>
+                    <p class="ci-label">PHONE NUMBER</p>
+                    <p class="ci-value"><a href="https://wa.me/qr/KZ4QWN2Y67OTN1" target="_blank">+62 858-0064-7208</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon email-icon">
+                    <i class="bi bi-envelope"></i>
+                  </div>
+                  <div>
+                    <p class="ci-label">EMAIL ADDRESS</p>
+                    <p class="ci-value"><a href="mailto:larassatii2123@gmail.com">larassatii2123@gmail.com</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon tiktok-icon">
+                    <i class="bi bi-tiktok"></i>
+                  </div>
+                  <div>
+                    <p class="ci-label">TIKTOK</p>
+                    <p class="ci-value"><a href="https://www.tiktok.com/@_nayyaaa.ay?_r=1&_t=ZS-96M3k48T1CH"
+                        target="_blank">@_nayyaaa.ay</a></p>
+                  </div>
+                </div>
+
+                <div class="contact-info-item">
+                  <div class="contact-info-icon ig-icon">
+                    <i class="bi bi-instagram"></i>
+                  </div>
+                  <div>
+                    <p class="ci-label">INSTAGRAM</p>
+                    <p class="ci-value"><a href="https://www.instagram.com/nayyaayuu?igsh=MWZrb3F1Y3FxdXY3"
+                        target="_blank">nayyaayuu</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="footer-section">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>ANNAYA</h4>
+          <p>
+            Delivering innovative digital solutions for education in response to rapid technological progress
+          </p>
+        </div>
+        <div class="footer-col">
+          <h6>NAVIGASI</h6>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h6>CONTACT</h6>
+          <ul>
+            <li><i class="bi bi-whatsapp me-2"></i><a href="https://wa.me/qr/KZ4QWN2Y67OTN1" target="_blank">+62
+                858-0064-7208</a></li>
+            <li><i class="bi bi-envelope me-2"></i><a
+                href="mailto:larassatii2123@gmail.com">larassatii2123@gmail.com</a></li>
+            <li><i class="bi bi-instagram me-2"></i><a href="https://www.instagram.com/nayyaayuu?igsh=MWZrb3F1Y3FxdXY3"
+                target="_blank">nayyaayuu</a></li>
+            <li><i class="bi bi-tiktok me-2"></i><a href="https://www.tiktok.com/@_nayyaaa.ay?_r=1&_t=ZS-96M3k48T1CH"
+                target="_blank">_nayyaaa.ay</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h6>FOLLOW ME</h6>
+          <div class="follow-icons">
+            <a href="https://github.com/annayaayu" target="_blank" class="follow-icon"><i class="bi bi-github"></i></a>
+            <a href="https://www.instagram.com/nayyaayuu?igsh=MWZrb3F1Y3FxdXY3" target="_blank" class="follow-icon"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@_nayyaaa.ay?_r=1&_t=ZS-96M3k48T1CH" target="_blank" class="follow-icon"><i
+                class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Annaya. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST NOTIFICATION-->
+  <div class="toast-notif" id="toastNotif">
+    <i class="bi bi-check-circle-fill"></i>
+    <span id="toastText">Message sent successfully!</span>
+  </div>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS Animation JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+
+</html>
